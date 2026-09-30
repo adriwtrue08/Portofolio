@@ -1,4 +1,6 @@
+ /*
  HEAD
+  */
 /* 
    MOBILE MENU
  */
@@ -184,5 +186,5 @@ contactForm.addEventListener("submit", (event) => {
 
     contactForm.reset();
 
- 3dbe3ae9c34bc2225a09766fa45904a3f5e59a7b
+ 
 });
