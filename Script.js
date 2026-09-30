@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-/* =========================================
+ HEAD
+/* 
    MOBILE MENU
-========================================= */
+ */
 
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
@@ -11,9 +11,9 @@ menuToggle.addEventListener("click", () => {
 });
 
 
-/* =========================================
+/* 
    CLOSE MOBILE MENU AFTER CLICK
-========================================= */
+ */
 
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -26,9 +26,9 @@ navLinks.forEach((link) => {
 });
 
 
-/* =========================================
+/* 
    ACTIVE NAVIGATION
-========================================= */
+ */
 
 const sections = document.querySelectorAll("section");
 
@@ -64,18 +64,18 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================================
+/* 
    COPYRIGHT YEAR
-========================================= */
+ */
 
 const yearElement = document.getElementById("year");
 
 yearElement.textContent = new Date().getFullYear();
 
 
-/* =========================================
+/* 
    CONTACT FORM
-========================================= */
+ */
 
 const contactForm = document.getElementById("contact-form");
 
@@ -91,10 +91,10 @@ contactForm.addEventListener("submit", (event) => {
 
     contactForm.reset();
 
-=======
-/* =========================================
+
+/* 
    MOBILE MENU
-========================================= */
+ */
 
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
@@ -104,9 +104,9 @@ menuToggle.addEventListener("click", () => {
 });
 
 
-/* =========================================
+/* 
    CLOSE MOBILE MENU AFTER CLICK
-========================================= */
+ */
 
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -119,9 +119,9 @@ navLinks.forEach((link) => {
 });
 
 
-/* =========================================
+/* 
    ACTIVE NAVIGATION
-========================================= */
+ */
 
 const sections = document.querySelectorAll("section");
 
@@ -157,18 +157,18 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================================
+/* 
    COPYRIGHT YEAR
-========================================= */
+ */
 
 const yearElement = document.getElementById("year");
 
 yearElement.textContent = new Date().getFullYear();
 
 
-/* =========================================
+/* 
    CONTACT FORM
-========================================= */
+ */
 
 const contactForm = document.getElementById("contact-form");
 
@@ -184,5 +184,5 @@ contactForm.addEventListener("submit", (event) => {
 
     contactForm.reset();
 
->>>>>>> 3dbe3ae9c34bc2225a09766fa45904a3f5e59a7b
+ 3dbe3ae9c34bc2225a09766fa45904a3f5e59a7b
 });
